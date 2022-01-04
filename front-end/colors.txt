@@ -1,0 +1,41 @@
+blue: #52d6f4
+green: #00b496
+red: #bf5748
+teal: #408697
+yellow: #ad974f
+gold: #8e793e
+orange: #ec7f37
+dark orange: #ff5a09
+pink: #f2c4ce
+dark pink: #f58f7c
+
+--------------------
+GRAPH COLORS: Light to Dark
+
+Blue:
+#52D6F4
+#00AAC7
+#00809C
+#005872
+#00324B
+
+Pink:
+#F2C4CE
+#C397A1
+#956C75
+#6A444D
+#411F28
+
+Orange:
+#EC7F37
+#C45E14
+#9C3D00
+#771D00
+#550000
+
+Gold:
+#AD974F
+#8A7730
+#685810
+#483B00
+#2F2000

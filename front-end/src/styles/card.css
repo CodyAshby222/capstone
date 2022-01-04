@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin: 30px;
+  border-radius: 5px;
+  overflow-wrap: break-word;
+  /* box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+.card-img {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+  margin: 10px;
+
+  border-radius: 100%;
+}
+
+.grey-hover {
+  transition: 0.3s;
+}
+
+.grey-hover:hover {
+  background-color: rgba(246, 246, 246, 0.6);
+  border-radius: 10px;
+}

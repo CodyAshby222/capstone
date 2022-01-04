@@ -1,0 +1,39 @@
+/* Theme Colors */
+
+.pink-border {
+  background-image: linear-gradient(to right, #f2c4ce, #c397a1);
+  padding: 5px;
+}
+
+.sm-pink-border {
+  background-image: linear-gradient(to right, #f2c4ce, #c397a1);
+  padding: 2px;
+}
+
+.blue-border {
+  background-image: linear-gradient(to right, #52d6f4, #408697);
+  padding: 5px;
+}
+
+.sm-blue-border {
+  background-image: linear-gradient(to right, #52d6f4, #408697);
+  padding: 2px;
+}
+.orange-border {
+  background-image: linear-gradient(to right, #ec7f37, #ff5a09);
+  padding: 5px;
+}
+
+.sm-orange-border {
+  background-image: linear-gradient(to right, #ec7f37, #ff5a09);
+  padding: 2px;
+}
+
+.gold-border {
+  background-image: linear-gradient(to right, #ad974f, #8e793e);
+  padding: 5px;
+}
+.sm-gold-border {
+  background-image: linear-gradient(to right, #ad974f, #8e793e);
+  padding: 2px;
+}

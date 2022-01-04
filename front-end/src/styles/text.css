@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+h1 {
+  font-size: 4.5em;
+}
+h2 {
+  font-size: 3em;
+}
+h3 {
+  font-size: 2em;
+}
+h4 {
+  font-size: 1.5em;
+}
+h5 {
+  font-size: 1.25em;
+}
+h6 {
+  font-size: 1em;
+}
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.light-text {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.error {
+  color: rgb(255, 0, 0);
+  font-size: 13px;
+  padding: 6px 0px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.file-error {
+  color: rgb(255, 0, 0);
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.x-close {
+  color: rgb(255, 0, 0);
+  font-size: 16px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.dark-text {
+  color: #363538;
+}
+
+textarea {
+  width: 205px;
+  height: 100px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: -2px 2px 7px rgba(0, 0, 0, 0.1);
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  resize: none;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-overflow {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.private-chatbox {
+  width: 400px;
+  height: 350px;
+  background-color: white;
+  word-wrap: break-word;
+  overflow-y: scroll;
+  border-radius: 10px;
+  box-shadow: -2px 2px 7px rgba(0, 0, 0, 0.1);
+}
+
+.public-chatbox {
+  width: 500px;
+  height: 400px;
+  word-wrap: break-word;
+  overflow-y: scroll;
+}
+
+.document-box {
+  width: 600px;
+  height: 170px;
+  padding-right: 10px;
+  background-color: #fdfdfd;
+  word-wrap: break-word;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.document {
+  width: 270px;
+  height: 25px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.document:hover {
+  background-color: rgba(200, 200, 200, 0.1);
+}
+
+.data-box {
+  margin-top: 30px;
+  width: 425px;
+  height: 100px;
+  background-color: #fdfdfd;
+  word-wrap: break-word;
+  overflow-y: scroll;
+  border-radius: 10px;
+  box-shadow: -2px 2px 7px rgba(0, 0, 0, 0.1);
+}
+
+/* width */
+.public-chatbox::-webkit-scrollbar,
+.private-chatbox::-webkit-scrollbar,
+.data-box::-webkit-scrollbar,
+.document-box::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.public-chatbox::-webkit-scrollbar-track,
+.private-chatbox::-webkit-scrollbar-track,
+.data-box::-webkit-scrollbar-track,
+.document-box::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(180, 179, 179);
+  border-radius: 10px;
+}
+
+/* Handle */
+.public-chatbox::-webkit-scrollbar-thumb,
+.private-chatbox::-webkit-scrollbar-thumb,
+.data-box::-webkit-scrollbar-thumb,
+.document-box::-webkit-scrollbar-thumb {
+  background: rgb(185, 185, 185);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.public-chatbox::-webkit-scrollbar-thumb:hover,
+.private-chatbox::-webkit-scrollbar-thumb:hover,
+.data-box::-webkit-scrollbar-thumb:hover,
+.document-box::-webkit-scrollbar-thumb:hover {
+  background: rgb(160, 160, 160);
+}
+
+.message {
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.blue-message {
+  background-color: #52d6f415;
+}
+
+.pink-message {
+  background-color: #f2c4ce18;
+}
+
+.orange-message {
+  background-color: #ec7f3717;
+}
+
+.gold-message {
+  background-color: #8e793e13;
+}
+
+@media all and (max-width: 1150px) {
+  .private-chatbox {
+    width: 700px;
+  }
+}
+
+@media all and (max-width: 900px) {
+}
+
+@media all and (max-width: 700px) {
+  .private-chatbox {
+    width: 400px;
+  }
+}
