@@ -4,6 +4,7 @@ import mongoose from "mongoose";
 import jsonwebtoken from "jsonwebtoken";
 import cors from "cors";
 import multer from "multer";
+import { apiKey } from "./secrets.json";
 
 const app = express();
 const http = require("http").createServer(app);
@@ -17,6 +18,7 @@ const io = require("socket.io")(http, {
 const NEW_MESSAGE_EVENT = "new-message-event";
 
 mongoose.Promise = global.Promise;
+mongoose.connect(apiKey, { useNewUrlParser: true, useUnifiedTopology: true });
 //ADD MONGOOSE CONNECT
 
 app.use(cors());
